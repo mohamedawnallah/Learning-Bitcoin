@@ -27,10 +27,10 @@ Types of shasum hashes:
 1 (default), 224, 256, 384, 512, 512224, 512256
 ````
 ## Additional Resources
-(Blockchain Hashing Tools)(https://tools.superdatascience.com/blockchain/hash): This website provides a visual representation of how hashing works in the context of blockchain.
+[Blockchain Hashing Tools](https://tools.superdatascience.com/blockchain/hash): This website provides a visual representation of how hashing works in the context of blockchain.
 
-(Cryptography and Network Security)(https://webspace.science.uu.nl/~tel00101/liter/Books/CrypCont.pdf): Principles and Practice: This book provides an in-depth treatment of cryptography and network security, including a section on hash functions.
+[Cryptography and Network Security](https://webspace.science.uu.nl/~tel00101/liter/Books/CrypCont.pdf): Principles and Practice: This book provides an in-depth treatment of cryptography and network security, including a section on hash functions.
 
-(Blockchain and Immutable Ledgers)(https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4) This article explain the importance of blockchain on the econonmy not from the money but from Ledger prospective (e.g: Property ledger).
+[Blockchain and Immutable Ledgers](https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4) This article explain the importance of blockchain on the econonmy not from the money but from Ledger prospective (e.g: Property ledger).
 
 
