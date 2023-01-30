@@ -15,11 +15,16 @@ There are certain criteria for Hashing Algorithms it's a good idea to understand
 The script `shasum_hashing.sh` is a simple implementation of a hash function in bash, using the `sha256sum` utility. It provides a basic example of how hashing can be used to verify the integrity of data.
 
 
-To run the script, simply pass in a file as an argument, and it will output the sha256 hash of the file's contents. For example:
+To run the script, simply pass in a file as an argument and if you would like a shasum hash type (e.g: 1, 224, 256), and it will output the given hash type (e.g: sha256) hash of the file's contents:
 
 ```
 chmod +x shasum_hasing.sh
-./shasum_hashing.sh data/big.txt
+./shasum_hashing.sh data/big.txt 256
+````
+
+Types of shasum hashes:
+```
+1 (default), 224, 256, 384, 512, 512224, 512256
 ````
 ## Additional Resources
 (Blockchain Hashing Tools)(https://tools.superdatascience.com/blockchain/hash): This website provides a visual representation of how hashing works in the context of blockchain.
