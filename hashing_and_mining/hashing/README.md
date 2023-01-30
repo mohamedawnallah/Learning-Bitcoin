@@ -33,4 +33,4 @@ Types of shasum hashes:
 
 [Blockchain and Immutable Ledgers](https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4) This article explain the importance of blockchain on the econonmy not from the money but from Ledger prospective (e.g: Property ledger).
 
-
+[The Meaning of Decentralization](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274)
