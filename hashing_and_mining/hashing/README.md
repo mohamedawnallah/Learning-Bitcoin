@@ -1,8 +1,6 @@
-<br/>
-
-<p align="center"><img src="assets/blockchain.png"><br></p>
-
-<br/>
+<h1 align="center">
+  <img alt="blockchain blocks image" src="assets/blockchain.png" width="224px"/><br/>
+</h1>
 
 ## Hashing in Bitcoin
 Hashing is a fundamental concept in the functioning of the Bitcoin blockchain. It is a mathematical function that takes an input (or "message") and returns a fixed-size output, known as a "hash". The hash is unique to the input, so even the smallest change in the input will result in a completely different hash.
