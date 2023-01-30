@@ -17,7 +17,7 @@ The script `shasum_hashing.sh` is a simple implementation of a hash function in 
 
 To run the script, simply pass in a file as an argument and if you would like a shasum hash type (e.g: 1, 224, 256), and it will output the given hash type (e.g: sha256) hash of the file's contents:
 
-```
+```bash
 chmod +x shasum_hasing.sh
 ./shasum_hashing.sh data/big.txt 256
 ````
