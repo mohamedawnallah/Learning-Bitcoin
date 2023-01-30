@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Bitcoin logo" src="assets/bitcoin-logo.png" width="224px"/><br/>
+  <img alt="Bitcoin logo" src="assets/bitcoin-logo.png" /><br/>
 </h1>
 
 # Learning Bitcoin (Development Prospective)
