@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="blockchain blocks image" src="assets/blockchain.png" width="224px"/><br/>
+  <img alt="blockchain blocks image" src="assets/blockchain.jpg"/><br/>
 </h1>
 
 ## Hashing in Bitcoin
