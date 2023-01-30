@@ -1,6 +1,6 @@
 <br/>
 
-<p align="center"><img src="assets/blockchain.png" width="224px"><br></p>
+<p align="center"><img src="assets/blockchain.png"><br></p>
 
 <br/>
 
