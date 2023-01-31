@@ -35,6 +35,8 @@ Note: The more nodes in competing chain in our case e.g:(orange nodes) the more 
 
 ## Additional Resources
 [Play around with Peer-to-Peer Distributed Network in Bitcoin](https://tools.superdatascience.com/blockchain/distributed) This is a demo where you can re-enforce your learning concepts of blockchain like P2P network, Consensus protocols, and more!
+
 [Byzantine Fault Tolerance](https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419) This article explains the concept of Byzantine Fault Tolerance pretty well
+
 [A Peer-to-Peer Electronic Cash System](https://www.bitcoin.com/bitcoin.pdf) Satoshi Nakamoto (an alias for the person who invented the Bitcoin) discusses the Proof of Work Consensus Protocol type and more it's a good idea to check it out.
 [Short guide blockchain consensus protocols](http://www.coindesk.com/short-guide-blockchain-consensus-protocol)
