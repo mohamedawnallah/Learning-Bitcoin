@@ -11,4 +11,4 @@ To oversimplify this concept it basically a consensus which deside each general(
 </h1>
 
 ## Additional Resources
-[Byzantine Fault Tolerance](https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419)
+[Byzantine Fault Tolerance](https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419) This article explains the concept of Byzantine Fault Tolerance pretty well
