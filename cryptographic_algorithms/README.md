@@ -1,6 +1,6 @@
 # Difference between Symmetric and Asymmetric Encryption
 
-## symmetric_encryption script
+## symmetric_encryption bash script
 ### Overview
 This script provides a basic implementation of symmetric encryption and decryption using the `openssl` command-line tool. The script will check if openssl is installed, generate a random symmetric key, use this key to encrypt and decrypt a specified plaintext file, and then compare the decrypted data with the original plaintext to confirm that the encryption and decryption process was successful.
 
@@ -31,13 +31,28 @@ The script will generate the following output:
 ### Note
 This script provides a basic implementation of symmetric encryption and decryption, and is intended to demonstrate the use of the `openssl` tool. It should not be used in a production environment without appropriate modification and testing to ensure that it meets the specific requirements of the intended use case.
 
-## asymmetric_encryption script
+## asymmetric_encryption python script
+This is a sample script that demonstrates the use of RSA cryptography and hashlib in Python. The script performs the following steps:
+- Generate a 1024-bit RSA private and public key pair using the RSA.generate() method.
+- Convert the private and public keys to PEM format and write them to disk as "private.pem" and "public.pem" files, respectively.
+- Read the PEM-formatted private and public keys from disk and import them using the `RSA.import_key()` method.
+- Encrypt the message `I love cryptography!` using the public key and the PKCS1_OAEP cipher for the purpose of data security.
+- Hash the plaintext message using the SHA256 algorithm for the purpose of data integrity
+- Transmit the encrypted message and the hashed message to the receiver.
+- Decrypt the received encrypted message using the private key.
+- Hash the received decrypted message and compare it to the received hashed message.
+- If the two hashed messages match, the message is considered authentic. Otherwise, it is considered tampered with.
 
+The script uses the following libraries:
+- hashlib for computing SHA256 hashes
+- Crypto.Cipher for performing encryption and decryption using PKCS1_OAEP
+- Crypto.PublicKey for generating and importing RSA keys.
 # Encryption vs Encoding vs Hashing Algorithms
-- Encryption is Reversible, hashing not (One-way)
+- Encryption is Reversible, hashing's irreversible (One-way)
 - Encoding is the process of representing data in a form that’s convenient for people or computers to work with for example
 there is Base64, UTF-8, ASCII system encoding
 - Usually Encryption is used with secure encoded data
+- Ususally Hashing don't require any key: `Data -> Hashing Function -> Hash` but there are some hashing functions add keys
 # Encryption Algorithms
 - Symmetric:
     - DES -> 56bits (obsolete as it's vulnerable to attacks)
