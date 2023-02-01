@@ -61,6 +61,10 @@ there is Base64, UTF-8, ASCII system encoding
       SSL communication in HTTPs protocol 
 - Asymmetric:
     - RSA
+# Hashing Algorithms
+- MD5 -> 128 bit variable length
+- SHA -> SHA-1 (160bit), SHA-256(256bit), SHA-512(512bit) 
+- HMAC
 # How RSA Protocol works
 
 # What is Public Key Infrastructure ?
