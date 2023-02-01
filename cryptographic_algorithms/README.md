@@ -47,6 +47,11 @@ The script uses the following libraries:
 - hashlib for computing SHA256 hashes
 - Crypto.Cipher for performing encryption and decryption using PKCS1_OAEP
 - Crypto.PublicKey for generating and importing RSA keys.
+
+# Use Cases of Asymmetric Encryption
+- `Public Key Infrastructure (PKI)` the public key is used for encryption
+   and the private key for decryption
+- `Digital Signature` The owner of key pairs(public,private) signs data using private key and anyone who has the public key may verify this signature (Encryption(public_key,private_key) + Hashing = Digital Signature)
 # Encryption vs Encoding vs Hashing Algorithms
 - Encryption is Reversible, hashing's irreversible (One-way)
 - Encoding is the process of representing data in a form that’s convenient for people or computers to work with for example
@@ -60,13 +65,14 @@ there is Base64, UTF-8, ASCII system encoding
     - AES (Advanced Encryption System) -> utilizes different length of bits (e.g: 128, 256) **Recommended** it is also used
       SSL communication in HTTPs protocol 
 - Asymmetric:
-    - RSA
+    - RSA (`Public key crypto system`) -> (1024, 2048, 3072, 4096 bits)
 # Hashing Algorithms
 - MD5 -> 128 bit variable length
 - SHA -> SHA-1 (160bit), SHA-256(256bit), SHA-512(512bit) 
-- HMAC
+- HMAC -> Usually used with MD5 and SHA, It add a secret key to the hashing process (Data + Key = Hash) with another level of security.
 # How RSA Protocol works
 
 # What is Public Key Infrastructure ?
+Wikipedia said "A public key infrastructure (PKI) is a set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke digital certificates and manage public-key encryption." So it's based on trust
 
 # Hashing Algorithms (sha, md5) and How they are used in public key infrastructure

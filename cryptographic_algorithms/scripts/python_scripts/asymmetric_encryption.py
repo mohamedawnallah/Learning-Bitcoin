@@ -2,6 +2,7 @@ import hashlib
 from Crypto.Cipher import PKCS1_OAEP
 from Crypto.PublicKey import RSA
 
+# Sender
 message = 'I love cryptography!'.encode("utf-8")
 
 private_key = RSA.generate(1024)
