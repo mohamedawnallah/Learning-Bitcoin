@@ -23,7 +23,7 @@ Then, simply run `main.py`:
 ```bash
 python main.py
 ```
-The application will start running on http://127.0.0.1:5000. You can access the endpoints by sending HTTP requests to the URL http://127.0.0.1:5000/<endpoint>.
+The application will start running on `http://127.0.0.1:5000`. You can access the endpoints by sending HTTP requests to the URL `http://127.0.0.1:5000/<endpoint>`.
 
 ## Conclusion
 This application is meant to be a simple demonstration of how a blockchain works, and is not meant to be used in a real-world scenario. It lacks many important features that a real blockchain would have, such as network consensus, security, and scalability.
