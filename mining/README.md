@@ -13,6 +13,7 @@ Difficulty = current_target / maximum_target
 ```
 Difficulty is adjusted by adding more leading zeros every 2016 blocks i.e(every 2 weeks) so it becomes difficult of solving the cryptographical puzzle
 over the time that's how It's being undercontrol
+**Current target could be derived from bits field**
 
 # Mining Pool
 Avoiding Double Work
@@ -58,3 +59,4 @@ Types of Attacks that lead to Double Spending Problem:
 [Unix Time - Number of Seconds since 1st Jan 1970](https://time.is/Unix_time)
 [How Bitcoin Mining Works](https://www.coindesk.com/learn/how-bitcoin-mining-works-2/)
 [How mempool works](https://blog.kaiko.com/an-in-depth-guide-into-how-the-mempool-works-c758b781c608)
+[Choosing ASICs for Sia](https://blog.sia.tech/choosing-asics-for-sia-b318505b5b51)
