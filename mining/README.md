@@ -11,4 +11,5 @@ Probability of picking a random valid hash: (2*10^55) / (10^77) = 2e-22 %
 ```
 Difficulty = current_target / maximum_target
 ```
-Difficulty is adjusted by adding more leading zeros every 2016 blocks i.e(every 2 weeks)
+Difficulty is adjusted by adding more leading zeros every 2016 blocks i.e(every 2 weeks) so it becomes difficult of solving the cryptographical puzzle
+over the time that's how It's being undercontrol
