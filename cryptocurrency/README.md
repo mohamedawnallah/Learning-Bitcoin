@@ -14,8 +14,8 @@ A UTXO is the amount of digital currency remaining after a cryptocurrency transa
 Anything you don't account for in the output UTXOs become the fees of the transaction even though blockchain `theoratically` can be
 free but there is a competition about mining blocks and confirming transations you need to put a fee. The higher the fee is the more
 sooner it's get accepted
-# How wallets work
-
+# How wallets work ?
+There isn't actually a balance value in the Blockchain just list of UTXOs. The Wallets actually calculate the UTXOs sent to you and calculate the balance
 # Signatures: Private & Public Keys
 
 # Signatures & Keys Demo
