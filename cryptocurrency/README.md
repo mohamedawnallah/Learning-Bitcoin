@@ -17,7 +17,11 @@ sooner it's get accepted
 # How wallets work ?
 There isn't actually a balance value in the Blockchain just list of UTXOs. The Wallets actually calculate the UTXOs sent to you and calculate the balance
 # Signatures: Private & Public Keys
+There are two proceses:
+- Signing Process: (Message + Digital Signature[Hashed Message + Encryption using Private Key])
+- Verification Process: (Message + Digital Signature + Public Key)
 
+By this we're mainting security and integrity of the blockchain
 # Signatures & Keys Demo
 
 # What is Segregated Witness ? (SegWit)
