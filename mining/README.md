@@ -13,3 +13,9 @@ Difficulty = current_target / maximum_target
 ```
 Difficulty is adjusted by adding more leading zeros every 2016 blocks i.e(every 2 weeks) so it becomes difficult of solving the cryptographical puzzle
 over the time that's how It's being undercontrol
+
+# Mining Pool
+Avoiding Double Work
+
+# Additional Resources
+[Bitcoin Mining Now Consuming More Electricity](https://powercompare.co.uk/blog/bitcoin-mining-now-consuming-more-electricity/)
