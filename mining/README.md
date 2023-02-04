@@ -28,7 +28,7 @@ Although Nounce Range is finite doesn't mean we can't find the valid hash from t
 
 But what about Mining Pool it is a capcity waste if it's waiting until the unix
 timestamp's changed ?
-
+Just change the Block Configurations so miner get transactions from **MEMPOOL** until timestamp gets updated
 
 # Additional Resources
 [Bitcoin Mining Now Consuming More Electricity](https://powercompare.co.uk/blog/bitcoin-mining-now-consuming-more-electricity/)
