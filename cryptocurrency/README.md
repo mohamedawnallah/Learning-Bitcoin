@@ -17,12 +17,14 @@ sooner it's get accepted
 # How wallets work ?
 There isn't actually a balance value in the Blockchain just list of UTXOs. The Wallets actually calculate the UTXOs sent to you and calculate the balance
 # Signatures: Private & Public Keys
-There are two proceses:
-- Signing Process: (Message + Digital Signature[Hashed Message + Encryption using Private Key])
-- Verification Process: (Message + Digital Signature + Public Key)
+- There are two proceses:
+    - Signing Process: (Message + Digital Signature[Hashed Message + Encryption using Private Key])
+    - Verification Process: (Message + Digital Signature + Public Key)
+- Public Key is generated from Private Key using `Elliptic Curve Multiplication`
+- Bitcoin Address is generated from Public key using `Double Hash (SHA256 + RIPEMD160)` and then `Base58Check Encode` on the public key hash output
+- Private key is a decimal number but public key is a hexadecmial one
 
 By this we're mainting security and integrity of the blockchain
-# Signatures & Keys Demo
 
 # What is Segregated Witness ? (SegWit)
 
@@ -35,3 +37,4 @@ By this we're mainting security and integrity of the blockchain
 [Traditional Monetary Policy Explained](https://www.youtube.com/watch?v=gUGxGCW-k7o&t=2s)
 [What Happens to Bitcoin After All 21 Million Are Mined?](https://www.investopedia.com/tech/what-happens-bitcoin-after-21-million-mined/)
 [Bitcoin Monetary Inflation over time](https://chart-studio.plotly.com/~BashCo/5.embed?share_key=liQvkaTiHXjX2W41UiqzCn)
+[Signatures & Keys Demo](https://tools.superdatascience.com/blockchain/public-private-keys/keys)
