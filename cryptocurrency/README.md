@@ -38,6 +38,8 @@ People can sent you UTXOs either to your Bitcoin adress or Public key but the fi
 Although generating private key from public key is almost impossible because of `elliptic function` used but may at somepoint in the future it's reversed engineered so by using bitcoin address you add another level of security to yours
 
 # Hierachically Deterministic (HD) Wallets
+Let's say one track your transactions over the blockchain by tracking the bitcoin address and public key that leads to patterns discovered affects your wallet security and it breaks the privacy concern of the bitcoin network so bitcoin comes with a solution found in `Bitcoin improvement proposals` in the additional resources attached below with something called `HD Wallets` you generate
+only one `master private key` and create unlimited number of private and public keys and bitcoin addresses as well in addition to `master public key`. 
 
 ## Additional Resources
 [Cryptocurrencies Market Capitalization](https://coinmarketcap.com/)
@@ -47,3 +49,5 @@ Although generating private key from public key is almost impossible because of 
 [Signatures & Keys Demo](https://tools.superdatascience.com/blockchain/public-private-keys/keys)
 [Understanding Segwit Block Size](https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4)
 [What is the Difference between public key and private key](https://www.reddit.com/r/Bitcoin/comments/3filud/whats_the_difference_between_public_key_and/)
+[Bitcoin Improvement Proposal](https://github.com/bitcoin/bips)
+[Deterministic Wallets, Their advantages and Their understated Flaws](https://bitcoinmagazine.com/technical/deterministic-wallets-advantages-flaw-1385450276)
