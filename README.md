@@ -14,5 +14,5 @@ This repository contains resources and a script for learning about Bitcoin espec
 
 # What are the components of the Cryptocurrency 
 - Blockchain Technology
-- Protocol and Coins e.g: Bitcoin protocol, Bitcoin coin, ...etc
+- Protocol and Coins
 - Tokens

@@ -30,7 +30,18 @@ But what about Mining Pool it is a capcity waste if it's waiting until the unix
 timestamp's changed ?
 Just change the Block Configurations so miner get transactions from **MEMPOOL** until timestamp gets updated
 
+# Types of Mining
+- CPU (Central Processing Unit) -> General -> `< 10 MH/s`
+- GPU (Graphics Processing Unit) -> Specialized in Matrix Operations -> `< 1 GH`
+- ASIC (Application Specific Integrated Circuit) -> Totally Specialized for mining at the physical circuit level -> `> 1,000 GH/s`
+- Cloud Mining
+
+# How do Memopools work ?
+- It's a staging area for transactions before added to a block
+- Nodes and Miners each one have Mempool as the concept of Blockchain based on (Distributed Peer-to-Peer Network)
+- Bitcoin's block size is limited to 1 MB, but this small amount of data is enough to store over 2000 transactions
 # Additional Resources
 [Bitcoin Mining Now Consuming More Electricity](https://powercompare.co.uk/blog/bitcoin-mining-now-consuming-more-electricity/)
 [Unix Time - Number of Seconds since 1st Jan 1970](https://time.is/Unix_time)
 [How Bitcoin Mining Works](https://www.coindesk.com/learn/how-bitcoin-mining-works-2/)
+[How mempool works](https://blog.kaiko.com/an-in-depth-guide-into-how-the-mempool-works-c758b781c608)
