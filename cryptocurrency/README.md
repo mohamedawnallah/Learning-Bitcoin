@@ -27,7 +27,9 @@ There isn't actually a balance value in the Blockchain just list of UTXOs. The W
 By this we're mainting security and integrity of the blockchain
 
 # What is Segregated Witness ? (SegWit)
-
+- Segregated Witness (SegWit) refers to a change in Bitcoin's transaction format where the witness information was removed from the input field of the block. The stated purpose of Segregated Witness is to prevent non-intentional Bitcoin transaction malleability and allow for more transactions to be stored within a block.
+- Signature and Public key `(scriptSig)` takes up to 60% of the whole transaction size
+- It's called `Segregated Witnes`s because `scirptSig` used as a witness to verify that the who ownership of the message
 # Public Key vs Bitcoin Address
 
 # Hierachically Deterministic (HD) Wallets
@@ -38,3 +40,4 @@ By this we're mainting security and integrity of the blockchain
 [What Happens to Bitcoin After All 21 Million Are Mined?](https://www.investopedia.com/tech/what-happens-bitcoin-after-21-million-mined/)
 [Bitcoin Monetary Inflation over time](https://chart-studio.plotly.com/~BashCo/5.embed?share_key=liQvkaTiHXjX2W41UiqzCn)
 [Signatures & Keys Demo](https://tools.superdatascience.com/blockchain/public-private-keys/keys)
+[Understanding Segwit Block Size](https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4)
