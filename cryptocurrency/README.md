@@ -8,8 +8,6 @@ Every 210,000 blocks or every 4 years, the nunber of Bitcoins per block is reduc
 
 - **Block Frequency**
 
-
-
 ## Additional Resources
 [Cryptocurrencies Market Capitalization](https://coinmarketcap.com/)
 [Traditional Monetary Policy Explained](https://www.youtube.com/watch?v=gUGxGCW-k7o&t=2s)
