@@ -31,6 +31,11 @@ By this we're mainting security and integrity of the blockchain
 - Signature and Public key `(scriptSig)` takes up to 60% of the whole transaction size
 - It's called `Segregated Witnes`s because `scirptSig` used as a witness to verify that the who ownership of the message
 # Public Key vs Bitcoin Address
+People can sent you UTXOs either to your Bitcoin adress or Public key but the first one is more common and best practice to do that.
+![Public key to bitcoin address process](assets/public-key-to-bitcoin-address.jpeg)
+
+# Why you should avoid giving people your public key
+Although generating private key from public key is almost impossible because of `elliptic function` used but may at somepoint in the future it's reversed engineered so by using bitcoin address you add another level of security to yours
 
 # Hierachically Deterministic (HD) Wallets
 
@@ -41,3 +46,4 @@ By this we're mainting security and integrity of the blockchain
 [Bitcoin Monetary Inflation over time](https://chart-studio.plotly.com/~BashCo/5.embed?share_key=liQvkaTiHXjX2W41UiqzCn)
 [Signatures & Keys Demo](https://tools.superdatascience.com/blockchain/public-private-keys/keys)
 [Understanding Segwit Block Size](https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4)
+[What is the Difference between public key and private key](https://www.reddit.com/r/Bitcoin/comments/3filud/whats_the_difference_between_public_key_and/)
