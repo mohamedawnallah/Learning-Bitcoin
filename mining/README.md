@@ -33,3 +33,4 @@ Just change the Block Configurations so miner get transactions from **MEMPOOL** 
 # Additional Resources
 [Bitcoin Mining Now Consuming More Electricity](https://powercompare.co.uk/blog/bitcoin-mining-now-consuming-more-electricity/)
 [Unix Time - Number of Seconds since 1st Jan 1970](https://time.is/Unix_time)
+[How Bitcoin Mining Works](https://www.coindesk.com/learn/how-bitcoin-mining-works-2/)
