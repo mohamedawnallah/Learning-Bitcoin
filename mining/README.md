@@ -40,6 +40,19 @@ Just change the Block Configurations so miner get transactions from **MEMPOOL** 
 - It's a staging area for transactions before added to a block
 - Nodes and Miners each one have Mempool as the concept of Blockchain based on (Distributed Peer-to-Peer Network)
 - Bitcoin's block size is limited to 1 MB, but this small amount of data is enough to store over 2000 transactions
+
+# What is an Orphaned Block?
+An orphan block is a block that has been solved within the blockchain network but was not accepted by the network. There can be two miners who solve valid blocks simultaneously. The network uses both blocks until one chain has more verified blocks. Then, the blocks in the shorter chain are orphaned.
+**Remember the Longest chain wins**
+
+# What is Double Spending Problem ?
+Double spending means the expenditure of the same digital currency twice or more to avail the multiple services. It is a technical flaw that allows users to `duplicate money`.
+
+Types of Attacks that lead to Double Spending Problem:
+- 51% Attack
+- Finney Attack
+- Race Attack
+
 # Additional Resources
 [Bitcoin Mining Now Consuming More Electricity](https://powercompare.co.uk/blog/bitcoin-mining-now-consuming-more-electricity/)
 [Unix Time - Number of Seconds since 1st Jan 1970](https://time.is/Unix_time)
