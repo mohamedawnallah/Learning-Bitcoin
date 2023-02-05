@@ -76,3 +76,14 @@ there is Base64, UTF-8, ASCII system encoding
 Wikipedia said "A public key infrastructure (PKI) is a set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke digital certificates and manage public-key encryption." So it's based on trust
 
 # Hashing Algorithms (sha, md5) and How they are used in public key infrastructure
+
+# What are Signature Hash Types (SIGHASH) ?
+
+# The Importance of Randomness in Signatures
+
+# What is Deterministic Random Seed
+
+# What is Locking Script and Unlocking Script
+
+# What is Pay to Public Key Hash Script
+

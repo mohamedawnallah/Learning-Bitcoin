@@ -6,7 +6,6 @@ from urllib.parse import urlparse
 
 class Blockchain:
     
-
     def __init__(self):
         """Initialize the blockchain with the Genesis block."""
         self.chain = []

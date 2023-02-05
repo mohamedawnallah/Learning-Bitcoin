@@ -27,9 +27,17 @@ chmod +x shasum_hasing.sh
 ````
 
 Types of shasum hashes:
-```
+``` bash
 1 (default), 224, 256, 384, 512, 512224, 512256
-````
+```
+
+## Shifting bits, Exclusive OR, ASIC, Compressing, and Hashing Inner Process
+## Applications of Hashing Algorithms:
+- Verifying the integrity of messages and files (Checksum)
+- Digital Signature generation and verification
+- Password verification (password-based key derivation functions)
+- Proof-of-work
+- File or data identifier including `Git` source code management tool and Look up in the `Hash Table`
 
 ## Additional Resources
 [Blockchain Hashing Tools](https://tools.superdatascience.com/blockchain/hash) This website provides a visual 
