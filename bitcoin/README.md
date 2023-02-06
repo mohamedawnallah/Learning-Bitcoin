@@ -27,5 +27,17 @@ It's not a good idea to use Mainnet while learning about bitcoin core for three 
 # What is Regtsest
 For situations where interaction with random peers and blocks is unnecessary or unwanted, Bitcoin Core’s regression test mode (regtest mode) lets you instantly create a brand-new `private block chain` with the same basic rules as testnet—but one major difference: you choose when to create new blocks, so you have complete control over the environment.
 
+# What are the applications (layer2) for bitcoin scripting
+- Atomic Swap
+- Lightning Network
+- Ligtning Loop
+- Multisig
+# What is Atomic Swap
+
+# What is Lightning Network
+
+# What is Ligtning Loop
+
+# What is Multisig
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/ )
