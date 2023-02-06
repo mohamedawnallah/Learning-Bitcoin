@@ -45,4 +45,5 @@ It's based as well on `Hashed Time Locked Contract Transaction` concept
 
 # What is Multisig
 # Additional Resources
-[Bitcoin Developer Documentation](https://developer.bitcoin.org/ )
+[Bitcoin Developer Documentation](https://developer.bitcoin.org/)
+[Lightning Network Official Website](https://lightning.network/)
