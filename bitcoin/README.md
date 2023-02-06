@@ -33,7 +33,11 @@ For situations where interaction with random peers and blocks is unnecessary or 
 - Ligtning Loop
 - Multisig
 # What is Atomic Swap
+An atomic swap is an `exchange of cryptocurrencies from separate blockchains`. The swap is conducted between two entities without a third party's involvement. The idea is to remove centralized intermediaries like regulated exchanges and give token owners total control.
 
+It uses at the core, `Hashed Time Locked Contract Transaction`:
+- Time Locked
+- Special Key
 # What is Lightning Network
 
 # What is Ligtning Loop
