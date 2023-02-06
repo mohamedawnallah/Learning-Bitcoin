@@ -38,9 +38,10 @@ An atomic swap is an `exchange of cryptocurrencies from separate blockchains`. T
 It uses at the core, `Hashed Time Locked Contract Transaction`:
 - Time Locked
 - Special Key
-# What is Lightning Network
+# What is Lightning Network and Ligtning Loop
+Wikipedia said: "The Lightning Network (LN) is a "layer 2" payment protocol layered on top of Bitcoin (and other blockchains and cryptocurrencies). It is intended to enable fast transactions among participating nodes and has been proposed as a solution to the bitcoin scalability problem. It features a peer-to-peer system for making micropayments of cryptocurrency through a network of bidirectional payment channels without delegating custody of funds".
 
-# What is Ligtning Loop
+It's based as well on `Hashed Time Locked Contract Transaction` concept
 
 # What is Multisig
 # Additional Resources
