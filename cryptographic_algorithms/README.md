@@ -84,6 +84,6 @@ Wikipedia said "A public key infrastructure (PKI) is a set of roles, policies, h
 # What is Deterministic Random Seed
 
 # What is Locking Script and Unlocking Script
-
+![Locking and Unlocking Script](assets/locking%20and%20unlocking%20script.png)
 # What is Pay to Public Key Hash Script
 

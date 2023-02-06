@@ -45,7 +45,9 @@ Just change the Block Configurations so miner get transactions from **MEMPOOL** 
 # What is an Orphaned Block?
 An orphan block is a block that has been solved within the blockchain network but was not accepted by the network. There can be two miners who solve valid blocks simultaneously. The network uses both blocks until one chain has more verified blocks. Then, the blocks in the shorter chain are orphaned.
 **Remember the Longest chain wins**
-
+ 
+# What are Merkle Trees ?
+Wikipedia said: "In cryptography and computer science, a hash tree or Merkle tree is a tree in which every "leaf" (node) is labelled with the cryptographic hash of a data block, and every node that is not a leaf (called a branch, inner node, or inode) is labelled with the cryptographic hash of the labels of its child nodes. A hash tree allows efficient and secure verification of the contents of a large data structure. A hash tree is a generalization of a hash list and a hash chain."
 # What is Double Spending Problem ?
 Double spending means the expenditure of the same digital currency twice or more to avail the multiple services. It is a technical flaw that allows users to `duplicate money`.
 
@@ -53,6 +55,14 @@ Types of Attacks that lead to Double Spending Problem:
 - 51% Attack
 - Finney Attack
 - Race Attack
+
+# Miners Rewards for finding the Proof of Work
+- New coins created with each new block, aka: `block reward` or `coinbase reward`
+- `Transaction fees` from all the transactions included in the block
+
+# Deflationary Money, Price Deflation, and Mining
+Deflation in bitcoin is not caused by a collapse in demand, but by a predictably constrained supply.
+
 
 # Additional Resources
 [Bitcoin Mining Now Consuming More Electricity](https://powercompare.co.uk/blog/bitcoin-mining-now-consuming-more-electricity/)
