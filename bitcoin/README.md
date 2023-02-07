@@ -56,6 +56,27 @@ Transaction fees serve as an `incentive` to include (mine) a transaction into th
 
 Transaction fees are calculated based on `the size of the transaction in kilobytes`, not the value of the transaction in bitcoin. Overall, transaction fees are set based on market forces within the bitcoin network. Miners prioritize transactions based on many different criteria, including fees, and might even process transactions for free under certain circumstances. Transaction fees affect the `processing priority`, meaning that a transaction with sufficient fees is likely to be included in the next block mined, whereas a transaction with insufficient or no fees might be delayed, processed on a best-effort basis after a few blocks, or not processed at all. Transaction fees are not mandatory, and transactions without fees might be processed eventually; however, including transaction fees encourages priority processing.
 
+# Locking and Unlocking Script
+Locking script is a spending condition based on `the transaction output` Histroically the locking script was called a `scriptPubKey` because it usally contained a public key or bitcoin address (public key hash) also it is refeered to as a `witness script` or `cryptographic puzzle` these all terms mean the same thing, at different levels of abstractions.
+
+The Unlocking script that `solves` or `satisfies` the conditions based on the UTXO ouput by a locking script allows the output to be spent. Unlocking scripts are part of every `transaction input` Most of the time they contain `digital signature` produced by the user's wallet from his or her private key. Historically it was called `scriptSig` because it usually contained a digital signature also it refeered to `witness`.
+
+![Locking and Unlocking Diagram](assets/locking%20and%20unlocking%20script.png)
+
+![Locking and Unlocking Script](assets/locking-and-locking-script)
+Combining scriptSig and scriptPubKey to evaluate a transaction script
+
+```
+Script Construction = Locking Script + Unlocking Script
+```
+
+Separate execution of unlocking and locking scripts to avoid the vulnerability that allowed a malformed unlocking script to push data onto the stack and corrupt the locking script.
+
+# Bitcoin Transaction Scripts
+Why we need to many differnt Bitcoin Transaction Scripts? the short answer is that we have many use cases that each one fit into (for more information look at the Script Types Usage resource down below)
+
+![Script Types Usage](assets/script-types-usage.png)
+
 
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
@@ -66,3 +87,4 @@ Transaction fees are calculated based on `the size of the transaction in kilobyt
 [Bitcoin Transaction Fees Estimator](https://bitcoinfees.earn.com/)
 [Pay-to-Pubkey Hash](https://en.bitcoinwiki.org/wiki/Pay-to-Pubkey_Hash)
 [Turing Incompleteness Bitcoin Script Language](https://river.com/learn/terms/t/turing-completeness)
+[Script Types Usage](https://river.com/learn/terms/s/script-bitcoin/)
