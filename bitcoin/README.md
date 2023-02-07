@@ -83,11 +83,17 @@ Combining scriptSig and scriptPubKey to evaluate a transaction script
 Requires `M` out of `N` Keys to sign
 ![Multisignature Script](assets/multisignature-script.png)
 
+**A Bug in CHECKMULTISIG execution**
+There is a bug in CHECKMULTISIG's execution that requires a slight workaround. When CHECKMULTISIG executes, it should consume M+N+2 items on the stack as parameters. However, due to the bug, CHECKMULTISIG will pop an extra value or one value more than expected. `it will cause a stack error and script failure (marking the transaction as invalid`. so for now and on you will see signature script as following with leading zero in the beginning.
+```
+0<Signature B><Signature C>2<PublicKey A><PublicKey B><PublicKey C>3 CHECKMULTISIG
+```
 # Pay-to-script Hash Transaction Script (p2sh script)
 Instead of Including all public keys in the case of `mutlisig script` we include the script hash instead so it becomes easier for the sender to send the locking script to the receiver. Locking Script:
 ```
 OP_HASH160 <SCRIPT_HASH> OP_EQUAL
 ```
+![Pay to Script Hash Script](assets/p2sh-script.png)
 
 
 # Additional Resources
