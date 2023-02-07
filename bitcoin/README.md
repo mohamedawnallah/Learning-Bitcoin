@@ -77,6 +77,9 @@ Why we need to many differnt Bitcoin Transaction Scripts? the short answer is th
 
 ![Script Types Usage](assets/script-types-usage.png)
 
+# MultiSignature Script
+Requires `M` out of `N` Keys to sign
+![Multisignature Script](assets/multisignature-script.png)
 
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
