@@ -65,3 +65,4 @@ Transaction fees are calculated based on `the size of the transaction in kilobyt
 [Big endian and little endian](https://www.techtarget.com/searchnetworking/definition/big-endian-and-little-endian)
 [Bitcoin Transaction Fees Estimator](https://bitcoinfees.earn.com/)
 [Pay-to-Pubkey Hash](https://en.bitcoinwiki.org/wiki/Pay-to-Pubkey_Hash)
+[Turing Incompleteness Bitcoin Script Language](https://river.com/learn/terms/t/turing-completeness)
