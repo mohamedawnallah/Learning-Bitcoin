@@ -83,6 +83,12 @@ Combining scriptSig and scriptPubKey to evaluate a transaction script
 Requires `M` out of `N` Keys to sign
 ![Multisignature Script](assets/multisignature-script.png)
 
+# Pay-to-script Hash Transaction Script (p2sh script)
+Instead of Including all public keys in the case of `mutlisig script` we include the script hash instead so it becomes easier for the sender to send the locking script to the receiver. Locking Script:
+```
+OP_HASH160 <SCRIPT_HASH> OP_EQUAL
+```
+
 
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
