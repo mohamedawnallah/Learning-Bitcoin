@@ -93,9 +93,15 @@ Instead of Including all public keys in the case of `mutlisig script` we include
 ```
 OP_HASH160 <SCRIPT_HASH> OP_EQUAL
 ```
+
 ![Pay to Script Hash Script](assets/p2sh-script.png)
 
 ![Pay to Script Hash Script 2](assets/p2sh-script2.png)
+
+# What is Segwit ?
+Investopedia said: "Segregated Witness (SegWit) refers to a change in the `transaction format` of Bitcoin. Its stated purpose as a protocol upgrade was to protect against `transaction malleability` and decrease transaction times by increasing `block capacity`. Transaction malleability refers to the possibility that tiny pieces of transaction information could be changed, invalidating new cryptocurrency blocks."
+
+
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
 
@@ -114,3 +120,8 @@ OP_HASH160 <SCRIPT_HASH> OP_EQUAL
 [Turing Incompleteness Bitcoin Script Language](https://river.com/learn/terms/t/turing-completeness)
 
 [Script Types Usage](https://river.com/learn/terms/s/script-bitcoin/)
+
+[Segregated Witness](https://www.investopedia.com/terms/s/segwit-segregated-witness.asp)
+
+[Transaction malleability problem](https://en.wikipedia.org/wiki/Transaction_malleability_problem)
+
