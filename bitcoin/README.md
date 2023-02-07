@@ -50,9 +50,18 @@ It's based as well on `Hashed Time Locked Contract Transaction` concept
 
 # What is Raw Transaction Serialization
 All nodes need to agree on how we serialize
+
+# Transaction Fees
+Transaction fees serve as an `incentive` to include (mine) a transaction into the next block and also as a `disincentive` against abuse of the system by imposing a small cost on every transaction. Transaction fees are collected by the miner who mines the block that records the transaction on the blockchain.
+
+Transaction fees are calculated based on `the size of the transaction in kilobytes`, not the value of the transaction in bitcoin. Overall, transaction fees are set based on market forces within the bitcoin network. Miners prioritize transactions based on many different criteria, including fees, and might even process transactions for free under certain circumstances. Transaction fees affect the `processing priority`, meaning that a transaction with sufficient fees is likely to be included in the next block mined, whereas a transaction with insufficient or no fees might be delayed, processed on a best-effort basis after a few blocks, or not processed at all. Transaction fees are not mandatory, and transactions without fees might be processed eventually; however, including transaction fees encourages priority processing.
+
+
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
 [Lightning Network Official Website](https://lightning.network/)
 [Bitcoin IDE](https://siminchen.github.io/bitcoinIDE/build/editor.html)
 [Bitcoin OP Codes](https://en.bitcoin.it/wiki/Script#Opcodes)
 [Big endian and little endian](https://www.techtarget.com/searchnetworking/definition/big-endian-and-little-endian)
+[Bitcoin Transaction Fees Estimator](https://bitcoinfees.earn.com/)
+[Pay-to-Pubkey Hash](https://en.bitcoinwiki.org/wiki/Pay-to-Pubkey_Hash)
