@@ -61,14 +61,7 @@ Locking script is a spending condition based on `the transaction output` Histroi
 
 The Unlocking script that `solves` or `satisfies` the conditions based on the UTXO ouput by a locking script allows the output to be spent. Unlocking scripts are part of every `transaction input` Most of the time they contain `digital signature` produced by the user's wallet from his or her private key. Historically it was called `scriptSig` because it usually contained a digital signature also it refeered to `witness`.
 
-![Locking and Unlocking Diagram](assets/locking%20and%20unlocking%20script.png)
-
-![Locking and Unlocking Script](assets/locking-and-locking-script)
-Combining scriptSig and scriptPubKey to evaluate a transaction script
-
-```
-Script Construction = Locking Script + Unlocking Script
-```
+![Locking and Unlocking Diagram](assets/locking-and-unlocking-script.png)
 
 Separate execution of unlocking and locking scripts to avoid the vulnerability that allowed a malformed unlocking script to push data onto the stack and corrupt the locking script.
 
@@ -76,6 +69,14 @@ Separate execution of unlocking and locking scripts to avoid the vulnerability t
 Why we need to many differnt Bitcoin Transaction Scripts? the short answer is that we have many use cases that each one fit into (for more information look at the Script Types Usage resource down below)
 
 ![Script Types Usage](assets/script-types-usage.png)
+
+# Public-to-public Key Hash Script (p2pkh script)
+![Public-to-public Key Hash Script](assets/p2pkh-script)
+Combining scriptSig and scriptPubKey to evaluate a transaction script
+
+```
+Script Construction = Locking Script + Unlocking Script
+```
 
 # MultiSignature Script
 Requires `M` out of `N` Keys to sign
