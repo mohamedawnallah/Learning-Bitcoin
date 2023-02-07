@@ -63,6 +63,10 @@ The Unlocking script that `solves` or `satisfies` the conditions based on the UT
 
 ![Locking and Unlocking Diagram](assets/locking-and-unlocking-script.png)
 
+```
+Script Construction = Locking Script + Unlocking Script
+```
+
 Separate execution of unlocking and locking scripts to avoid the vulnerability that allowed a malformed unlocking script to push data onto the stack and corrupt the locking script.
 
 # Bitcoin Transaction Scripts
@@ -70,17 +74,15 @@ Why we need to many differnt Bitcoin Transaction Scripts? the short answer is th
 
 ![Script Types Usage](assets/script-types-usage.png)
 
-# Public-to-public Key Hash Script (p2pkh script)
-![Public-to-public Key Hash Script](assets/p2pkh-script.png)
+# Pay-to-public Key Hash Transaction Script (p2pkh script)
+![Pay-to-public Key Hash Script](assets/p2pkh-script.png)
 Combining scriptSig and scriptPubKey to evaluate a transaction script
 
-```
-Script Construction = Locking Script + Unlocking Script
-```
 
 # MultiSignature Script
 Requires `M` out of `N` Keys to sign
 ![Multisignature Script](assets/multisignature-script.png)
+
 
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
