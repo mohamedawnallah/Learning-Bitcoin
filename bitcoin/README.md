@@ -102,10 +102,15 @@ OP_HASH160 <SCRIPT_HASH> OP_EQUAL
 
 ![Pay to Script Hash Script 2](assets/p2sh-script2.png)
 
+# Time Lock Transaction Script
+- Absolute Time Lock:
+    - `nLocktime` has many limitations some of them is `double spending problem`  and being stored  on `transaction level` and the transaction can not be broadcasted until the time is passed
+    - `CHECK LOCK TIME VERIFY` must be placed UTXO itself and be part of the locking script 
 # What is Segwit ?
 Investopedia said: "Segregated Witness (SegWit) refers to a change in the `transaction format` of Bitcoin. Its stated purpose as a protocol upgrade was to protect against `transaction malleability` and decrease transaction times by increasing `block capacity`. Transaction malleability refers to the possibility that tiny pieces of transaction information could be changed, invalidating new cryptocurrency blocks."
 
 Witness Data structure is not part of calculation of the transaction hash
+
 
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
