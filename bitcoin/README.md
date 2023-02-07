@@ -77,7 +77,7 @@ Why we need to many differnt Bitcoin Transaction Scripts? the short answer is th
 # Pay-to-public Key Hash Transaction Script (p2pkh script)
 ![Pay-to-public Key Hash Script](assets/p2pkh-script.png)
 Combining scriptSig and scriptPubKey to evaluate a transaction script
-
+![Pay-to-public Key Hash Script2](assets/p2pkh-script2.png)
 
 # MultiSignature Script
 Requires `M` out of `N` Keys to sign
