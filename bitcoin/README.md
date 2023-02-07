@@ -71,7 +71,7 @@ Why we need to many differnt Bitcoin Transaction Scripts? the short answer is th
 ![Script Types Usage](assets/script-types-usage.png)
 
 # Public-to-public Key Hash Script (p2pkh script)
-![Public-to-public Key Hash Script](assets/p2pkh-script)
+![Public-to-public Key Hash Script](assets/p2pkh-script.png)
 Combining scriptSig and scriptPubKey to evaluate a transaction script
 
 ```
