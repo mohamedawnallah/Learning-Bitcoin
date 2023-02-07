@@ -101,6 +101,7 @@ OP_HASH160 <SCRIPT_HASH> OP_EQUAL
 # What is Segwit ?
 Investopedia said: "Segregated Witness (SegWit) refers to a change in the `transaction format` of Bitcoin. Its stated purpose as a protocol upgrade was to protect against `transaction malleability` and decrease transaction times by increasing `block capacity`. Transaction malleability refers to the possibility that tiny pieces of transaction information could be changed, invalidating new cryptocurrency blocks."
 
+Witness Data structure is not part of calculation of the transaction hash
 
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
