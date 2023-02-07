@@ -1,3 +1,6 @@
+# Types of Wallets:
+- Just a Bunch Of Keys Wallet (JBOK Wallet) > Non-deterministic Wallet
+- Hierachical Deterministic Wallet (HD Wallet) -> deterministic Wallet
 # Full Blockchain Node vs Wallet Node vs Miner Node vs Network Routing Node
 
 # What are SVP Nodes
@@ -44,6 +47,12 @@ Wikipedia said: "The Lightning Network (LN) is a "layer 2" payment protocol laye
 It's based as well on `Hashed Time Locked Contract Transaction` concept
 
 # What is Multisig
+
+# What is Raw Transaction Serialization
+All nodes need to agree on how we serialize
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
 [Lightning Network Official Website](https://lightning.network/)
+[Bitcoin IDE](https://siminchen.github.io/bitcoinIDE/build/editor.html)
+[Bitcoin OP Codes](https://en.bitcoin.it/wiki/Script#Opcodes)
+[Big endian and little endian](https://www.techtarget.com/searchnetworking/definition/big-endian-and-little-endian)
