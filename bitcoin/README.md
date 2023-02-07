@@ -84,11 +84,19 @@ Requires `M` out of `N` Keys to sign
 
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
+
 [Lightning Network Official Website](https://lightning.network/)
+
 [Bitcoin IDE](https://siminchen.github.io/bitcoinIDE/build/editor.html)
+
 [Bitcoin OP Codes](https://en.bitcoin.it/wiki/Script#Opcodes)
+
 [Big endian and little endian](https://www.techtarget.com/searchnetworking/definition/big-endian-and-little-endian)
+
 [Bitcoin Transaction Fees Estimator](https://bitcoinfees.earn.com/)
+
 [Pay-to-Pubkey Hash](https://en.bitcoinwiki.org/wiki/Pay-to-Pubkey_Hash)
+
 [Turing Incompleteness Bitcoin Script Language](https://river.com/learn/terms/t/turing-completeness)
+
 [Script Types Usage](https://river.com/learn/terms/s/script-bitcoin/)
