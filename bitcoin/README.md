@@ -95,7 +95,7 @@ OP_HASH160 <SCRIPT_HASH> OP_EQUAL
 ```
 ![Pay to Script Hash Script](assets/p2sh-script.png)
 
-
+![Pay to Script Hash Script 2](assets/p2sh-script2.png)
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
 
