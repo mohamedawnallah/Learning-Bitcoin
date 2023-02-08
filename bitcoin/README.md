@@ -167,3 +167,4 @@ Collectible -> Store of value -> Medium of Exchange -> Unit of account
 
 [Lindy Effect](https://en.wikipedia.org/wiki/Lindy_effect)
 
+[The Bullish Case for Bitcoin](https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1)
