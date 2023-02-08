@@ -128,6 +128,17 @@ In the earliest human societies, trade between groups of people occurred through
 ```
 Collectible -> Store of value -> Medium of Exchange -> Unit of account
 ```
+## Bitcoin vs Gold vs Fiat Money
+| Factor\Mean-of-exchance | Bitcoin    | Gold    | Fiat Money |
+| :---:   | :---: | :---: | :---: |
+| Durable | B   | A+   |   C    |
+| Portabe | A+  | D    |   B    |
+| Fungible | B  | A    |   B    |
+| Verifiable | A+ | B  |   C    |
+| Divisble   | A+ | C  |   B    |
+| Scarce     | A+ | A  |   F    |
+| Established History | D | A+ | C
+| Censorship Resistant | A | C | D
 
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
