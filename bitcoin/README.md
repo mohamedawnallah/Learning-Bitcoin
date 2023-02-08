@@ -120,6 +120,15 @@ Witness Data structure is not part of calculation of the transaction hash
 # What is Signing Transaction ?
 Signing transaction means providing the `unlocking script` to the output transaction
 
+# Bitcoin and Economics
+
+## The Origins of Money
+In the earliest human societies, trade between groups of people occurred through `barter`. A major disadvantage with barter-based trade is `the double coincidence of wants problem`. An apple grower may desire trade with a fisherman, for example, but if the fisherman does not desire apples at the same moment, the trade will not take place.
+
+```
+Collectible -> Store of value -> Medium of Exchange -> Unit of account
+```
+
 # Additional Resources
 [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
 
@@ -142,4 +151,8 @@ Signing transaction means providing the `unlocking script` to the output transac
 [Segregated Witness](https://www.investopedia.com/terms/s/segwit-segregated-witness.asp)
 
 [Transaction malleability problem](https://en.wikipedia.org/wiki/Transaction_malleability_problem)
+
+[The Origins of Money](https://nakamotoinstitute.org/shelling-out/)
+
+[Lindy Effect](https://en.wikipedia.org/wiki/Lindy_effect)
 
