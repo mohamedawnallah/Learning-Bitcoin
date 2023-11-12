@@ -7,7 +7,7 @@ This repository contains resources and a script for learning about Bitcoin espec
 
 ## Concepts in Blockchain Technology
 - Hash Cryptography
-- Immutable Ledger
+- Immutable Distributed Ledger
 - Distributed P2P Network
 - Mining
 - Consensus Protocol
