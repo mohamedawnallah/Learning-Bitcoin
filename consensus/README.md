@@ -1,5 +1,5 @@
 ## Byzantine Fault Tolerance
-To oversimplify this concept it basically a consensus which deside each general(node) command(transaction) to listen to:
+To oversimplify this concept it basically a consensus which decide each general(node) command(transaction) to listen to:
 - Up to f generals might behave malicously
 - Honest generals don't know who the malicious ones are
 - The malicious genreals may collude
@@ -10,7 +10,7 @@ To oversimplify this concept it basically a consensus which deside each general(
   <img alt="byzantine fault tolerance" src="assets/byzantine-fault-tolerance.png" width="800px" height="450px" /><br/>
 </h1>
 
-## When we nee Consensus Protocol
+## When we need Consensus Protocol
 Let's say you're a miner and you mined a block and you finally you get the reward of solving the cryptographic puzzle which is very hard to solve in that could it's called gold nounce in the context of bitcoin it is 12 and half bitcon for mining a single block.
 
 What if you added a malicious block in the chain? so there is a need to come to an aggrement before adding each block in the chain to make sure the integrity of the blockchain. It's a good idea to search the verification steps of your preferred blockchain.
