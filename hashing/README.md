@@ -12,7 +12,7 @@ There are certain criteria for Hashing Algorithms it's a good idea to understand
 - Deterministic that mean every time I entered the same data it gives me the same output hash
 - Fast Computation
 - The Avalanche Effect that means any small change with the data makes avalanche effect or huge effect in the output hash
-- Must withstand with (artifical/natural) collisions that means in the case of SHA256 algorithm we have 2^256 possibilities of hashed documents and you know it is finite (like the fingerprint of the human the possibility of having the same fingerprint is 1 in 60,000,000) so it needs to handle this collision very welll with help of the `piegon hole principle` which means if you have 10 piegons and 9 holes there's no way around unless you put two in one hole
+- Must withstand with (artifical/natural) collisions that means in the case of SHA256 algorithm we have 2^256 possibilities of hashed documents and you know it is finite (like the fingerprint of the human [the possibility of having the same fingerprint is 1 in 64 trillion](https://www.scientificamerican.com/article/the-chance-of-identical-fingerprints-1-in-64-trillion/)) so it needs to handle this collision very welll with help of the `piegon hole principle` which means if you have 10 piegons and 9 holes there's no way around unless you put two in one hole
 
 
 ## shasum_hashing script
